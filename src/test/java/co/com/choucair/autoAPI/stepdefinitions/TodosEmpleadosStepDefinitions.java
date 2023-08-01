@@ -1,6 +1,6 @@
 package co.com.choucair.autoAPI.stepdefinitions;
 
-import co.com.choucair.autoAPI.models.ObtenerInformacionEmpleados;
+
 import co.com.choucair.autoAPI.questions.RespuestaTodosEmpleados;
 import co.com.choucair.autoAPI.tasks.ListarTodosEmpleados;
 import io.cucumber.java.es.Cuando;

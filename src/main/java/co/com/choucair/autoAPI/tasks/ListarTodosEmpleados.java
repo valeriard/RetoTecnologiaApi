@@ -1,6 +1,5 @@
 package co.com.choucair.autoAPI.tasks;
 
-import co.com.choucair.autoAPI.models.ObtenerInformacionEmpleados;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.rest.interactions.Get;
