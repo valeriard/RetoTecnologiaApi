@@ -28,8 +28,8 @@ public class ActualizarInformacionStepDefinitions {
         List<Map<String,String>> actualizarinformacion = dataActualizada.asMaps();
         theActorInTheSpotlight().attemptsTo(Actualizar.laInformacion(actualizarinformacion));
     }
-    @Entonces("se verifica que la informacion de {string}")
-    public void seVerificaQueLaInformacionDe(String name) {
+    @Entonces("se verifica que la informacion de nombre sea igual a {string}")
+    public void seVerificaQueLaInformacionDeNombreSeaIgualA(String name) {
         theActorInTheSpotlight().should(
                 seeThatResponse("El servicio respondió satisfactoriamente", response -> response.statusCode(200)
                 ));

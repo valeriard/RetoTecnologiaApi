@@ -7,7 +7,7 @@
       Cuando cuando se consuma el servicio de actualizar la informacion de usuario con id
       |name  |job  |
       |<name>|<job>|
-      Entonces se verifica que la informacion de "morpheus"
+      Entonces se verifica que la informacion de nombre sea igual a "morpheus"
 
       Ejemplos:
         | name | job |
