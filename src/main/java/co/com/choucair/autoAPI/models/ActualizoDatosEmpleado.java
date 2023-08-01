@@ -2,14 +2,19 @@ package co.com.choucair.autoAPI.models;
 
 public class ActualizoDatosEmpleado {
 
-    private String id;
-    private String edad;
+    private String name;
+    private String job;
 
-    public String getId() {
-        return id;
+    public ActualizoDatosEmpleado(String name, String job) {
+        this.name = name;
+        this.job = job;
     }
 
-    public String getEdad() {
-        return edad;
+    public String getName() {
+        return name;
+    }
+
+    public String getJob() {
+        return job;
     }
 }

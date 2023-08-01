@@ -2,17 +2,18 @@
   #language: es
 
   Característica: A través del método PUT se actualiza la información
-    Esquema del escenario:
+    Esquema del escenario: Actualizar informacion de usuario
       Dado que se quiere actualizar la informacion
-      Cuando cuando se consuma el servicio de actualizar la edad al empleado con id
-      |id|edad|
-      |<id>|<edad>|
-      Entonces se valida que la edad se  satisfactoriamente
-      |edad_resultado|
-      |<edad_resultado>|
+      Cuando cuando se consuma el servicio de actualizar la informacion de usuario con id
+      |name  |job  |
+      |<name>|<job>|
+      Entonces se verifica que la informacion de "morpheus"
+
       Ejemplos:
-       |id | edad | edad_resultado |
-       |25 | 29   |         29     |
+        | name | job |
+        |morpheus|zion resident|
+
+
 
 
 
